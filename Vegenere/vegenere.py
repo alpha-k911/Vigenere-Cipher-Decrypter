@@ -66,6 +66,17 @@ for i in range(0,len(ciphers)):
 print("Ciphers: ")
 print(ciphers_freq)
 
+#map of fequency
+ind = []
+for i in range(0,26):
+    ind.append(i)
+print(ind)
+
+#getting in order with indices
+mp = zip(ciphers_freq[0],ind)
+mp = list(mp)
+print(sorted(mp,reverse=True))
+
 
 
 '''
