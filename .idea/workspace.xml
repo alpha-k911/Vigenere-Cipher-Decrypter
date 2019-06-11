@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dae2fcd-272e-419d-ba78-10f8da6f7dcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../vnit_bot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vnit_bot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vnit_bot/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../vnit_bot/.idea/vnit_bot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vegenere/vegenere.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vegenere/vegenere.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vnit_bot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../vnit_bot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../vnit_bot/telegram/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../vnit_bot/telegram/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vegenere/vegenere.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -197,7 +192,7 @@
       <workItem from="1559887603556" duration="9073000" />
       <workItem from="1560167791828" duration="33000" />
       <workItem from="1560167825803" duration="2132000" />
-      <workItem from="1560242572841" duration="6540000" />
+      <workItem from="1560242572841" duration="8983000" />
     </task>
     <task id="LOCAL-00001" summary="mapping of indices">
       <created>1560169202625</created>
@@ -206,11 +201,32 @@
       <option name="project" value="LOCAL" />
       <updated>1560169202625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mapping of max freq's">
+      <created>1560249306613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560249306613</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mapping of max freq's">
+      <created>1560249327632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560249327632</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Key Detection">
+      <created>1560251390204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560251390204</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23555000" />
+    <option name="totallyTimeSpent" value="25998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -244,10 +260,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mapping of indices" />
-    <option name="LAST_COMMIT_MESSAGE" value="mapping of indices" />
+    <MESSAGE value="mapping of max freq's" />
+    <MESSAGE value="Key Detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Key Detection" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Cryptography$vegenere.coverage" NAME="vegenere Coverage Results" MODIFIED="1560248766618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Vegenere" />
+    <SUITE FILE_PATH="coverage/Cryptography$vegenere.coverage" NAME="vegenere Coverage Results" MODIFIED="1560251689293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Vegenere" />
     <SUITE FILE_PATH="coverage/Cryptography$main.coverage" NAME="main Coverage Results" MODIFIED="1559908852818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../vnit_bot/telegram" />
     <SUITE FILE_PATH="coverage/Cryptography$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1559887647437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../vnit_bot/discord" />
   </component>
@@ -274,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Vegenere/vegenere.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+        <state relative-caret-position="270">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
