@@ -1,5 +1,5 @@
 # Vigenère-Cipher-Decrypter
-  <b>Vigenère-Cipher-Decrypter</b> is an tool that attempts to decrypt certain data encrypted by the  Vigenère cipher.
+  <b>Vigenère-Cipher-Decrypter</b> is a tool that attempts to decrypt certain data encrypted by the  Vigenère cipher.
   This tool can decrypt Vigenère cipher <b>with</b> and <b>without Key</b>
 
 ## The Files
