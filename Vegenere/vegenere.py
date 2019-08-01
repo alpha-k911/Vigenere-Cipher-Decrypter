@@ -110,15 +110,15 @@ def decrypt():
 if __name__ == "__main__":
     p = 0
     while p == 0:
-        print(colored("\033[1m"+"[+] 1. Encrypt" + "\033[1m","red"))
-        print(colored("\033[1m" + "[+] 2. Decrypt" + "\033[1m","red"))
-        print(colored("\033[1m" + "[+] 3. EXIT" + "\033[1m","red"))
+#         print(colored("\033[1m"+"[+] 1. Encrypt" + "\033[1m","red"))
+        print(colored("\033[1m" + "[+] 1. Decrypt" + "\033[1m","red"))
+        print(colored("\033[1m" + "[+] 2. EXIT" + "\033[1m","red"))
         choice = input(colored("\033[1m" + "Choice: " + "\033[1m","blue"))
+#         if choice == "1":
+#             encrypt()
         if choice == "1":
-            encrypt()
-        elif choice == "2":
             decrypt()
-        elif choice == "3":
+        elif choice == "2":
             p = 1
         else:
             print(colored("\033[1m" + "Choose according to options provided...\n" + "\033[1m","white"))
