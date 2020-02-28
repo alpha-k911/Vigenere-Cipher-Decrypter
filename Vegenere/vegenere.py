@@ -7,6 +7,11 @@ MODULE_DESCRIPTION = """Vigenère-Cipher-Decrypter is a tool that attempts to de
 by the Vigenère cipher. This tool can decrypt Vigenère cipher with and without Key"""
 
 
+logging.addLevelName( logging.INFO, "\033[1;36m%s\033[1;0m" % logging.getLevelName(logging.INFO))
+logging.addLevelName( logging.DEBUG, "\033[1;37m%s\033[1;0m" % logging.getLevelName(logging.DEBUG))
+logging.addLevelName( logging.WARNING, "\033[1;33m%s\033[1;0m" % logging.getLevelName(logging.WARNING))
+logging.addLevelName( logging.ERROR, "\033[1;31m%s\033[1;0m" % logging.getLevelName(logging.ERROR))
+logging.addLevelName( logging.CRITICAL, "\033[1;41m%s\033[1;0m" % logging.getLevelName(logging.CRITICAL))
 
 def encrypt():
     a = ""
@@ -122,7 +127,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.verbose:
-        logging.basicConfig(level=logging.DEBUG,format='%(levelname)s : %(message)s ')
+        logging.basicConfig(level=logging.DEBUG)
 
     if args.action.lower() == "encrypt" or args.action.lower() == "e":
         pass
